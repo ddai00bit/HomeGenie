@@ -4,6 +4,7 @@
       "input": "./source",
       "output": "./",
       "copy": [
+        "api",
         "app",
         "css",
         "images",

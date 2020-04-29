@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['knxclienthelper',['KnxClientHelper',['../class_home_genie_1_1_automation_1_1_scripting_1_1_knx_client_helper.html',1,'HomeGenie::Automation::Scripting']]]
+  ['eventshelper',['EventsHelper',['../class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html',1,'HomeGenie::Automation::Scripting']]]
 ];

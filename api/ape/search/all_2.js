@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['datahelper',['DataHelper',['../class_home_genie_1_1_automation_1_1_scripting_1_1_data_helper.html',1,'HomeGenie::Automation::Scripting']]],
   ['decimalvalue',['DecimalValue',['../class_home_genie_1_1_data_1_1_module_parameter.html#ab0f821ec5a9f573ca07e1f99e3348ebf',1,'HomeGenie::Data::ModuleParameter']]],
   ['description',['Description',['../class_home_genie_1_1_data_1_1_module.html#a34409fed9d39281ada2d7ec172a52f9b',1,'HomeGenie.Data.Module.Description()'],['../class_home_genie_1_1_data_1_1_module_parameter.html#a34409fed9d39281ada2d7ec172a52f9b',1,'HomeGenie.Data.ModuleParameter.Description()']]],
   ['devicetype',['DeviceType',['../class_home_genie_1_1_data_1_1_module.html#acb0a8305fc89fd340f546a6dd26e894d',1,'HomeGenie::Data::Module']]],

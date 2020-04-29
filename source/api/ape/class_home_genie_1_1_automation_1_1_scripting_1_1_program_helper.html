@@ -85,9 +85,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba65b477efba06ac22a4f908881bbece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#aba65b477efba06ac22a4f908881bbece">Setup</a> (Action functionBlock)</td></tr>
 <tr class="memdesc:aba65b477efba06ac22a4f908881bbece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a setup function when the program is enabled. It is meant to be used in the "Startup Code" to execute only once the instructions contained in the passed function. It is mainly used for setting program configuration fields, parameters and features.  <a href="#aba65b477efba06ac22a4f908881bbece">More...</a><br /></td></tr>
 <tr class="separator:aba65b477efba06ac22a4f908881bbece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34a937a2bc052615d27137c3663d10c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a34a937a2bc052615d27137c3663d10c6">Run</a> (bool willRun=true)</td></tr>
-<tr class="memdesc:a34a937a2bc052615d27137c3663d10c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the program as soon as the "Startup Code" exits. This command is meant to be used in the "Startup Code".  <a href="#a34a937a2bc052615d27137c3663d10c6">More...</a><br /></td></tr>
-<tr class="separator:a34a937a2bc052615d27137c3663d10c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3374b430562cf0ce101f5987ecf888b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a3374b430562cf0ce101f5987ecf888b4">Run</a> (bool willRun)</td></tr>
+<tr class="memdesc:a3374b430562cf0ce101f5987ecf888b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the program as soon as the "Startup Code" exits. This command is meant to be used in the "Startup Code".  <a href="#a3374b430562cf0ce101f5987ecf888b4">More...</a><br /></td></tr>
+<tr class="separator:a3374b430562cf0ce101f5987ecf888b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c0baea094fcf0f29c57cf1f157c68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html">ProgramHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ab4c0baea094fcf0f29c57cf1f157c68b">UseWidget</a> (string widget)</td></tr>
 <tr class="memdesc:ab4c0baea094fcf0f29c57cf1f157c68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the widget that will be used for displaying this program data in the UI Control page.  <a href="#ab4c0baea094fcf0f29c57cf1f157c68b">More...</a><br /></td></tr>
 <tr class="separator:ab4c0baea094fcf0f29c57cf1f157c68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,8 +185,8 @@ Class instance accessor: <b>Program</b> </p>
 <p>Example: </p><div class="fragment"><div class="line">Program.Setup(()=&gt;</div><div class="line">{              </div><div class="line">    Program.AddOption(</div><div class="line">        <span class="stringliteral">&quot;MaxLevel&quot;</span>,</div><div class="line">        <span class="stringliteral">&quot;40&quot;</span>, </div><div class="line">        <span class="stringliteral">&quot;Keep level below the following value&quot;</span>,</div><div class="line">        <span class="stringliteral">&quot;slider:10:80&quot;</span>);</div><div class="line">    Program.AddFeature(</div><div class="line">        <span class="stringliteral">&quot;Dimmer&quot;</span>,</div><div class="line">        <span class="stringliteral">&quot;EnergyManagement.EnergySavingMode&quot;</span>, </div><div class="line">        <span class="stringliteral">&quot;Energy Saving Mode enabled light&quot;</span>,</div><div class="line">        <span class="stringliteral">&quot;checkbox&quot;</span>);</div><div class="line">}, 0);</div></div><!-- fragment --> 
 </div>
 </div>
-<a id="a34a937a2bc052615d27137c3663d10c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34a937a2bc052615d27137c3663d10c6">&#9670;&nbsp;</a></span>Run()</h2>
+<a id="a3374b430562cf0ce101f5987ecf888b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3374b430562cf0ce101f5987ecf888b4">&#9670;&nbsp;</a></span>Run()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,7 +195,7 @@ Class instance accessor: <b>Program</b> </p>
           <td class="memname">void Run </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>willRun</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>willRun</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -964,7 +964,7 @@ Class instance accessor: <b>Program</b> </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 5 2019 14:47:20 for Helper Class Reference by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 29 2020 18:47:33 for Helper Class Reference by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

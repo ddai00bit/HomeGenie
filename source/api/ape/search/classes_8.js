@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['valuestatistics',['ValueStatistics',['../class_home_genie_1_1_data_1_1_value_statistics.html',1,'HomeGenie::Data']]]
+  ['udpclienthelper',['UdpClientHelper',['../class_home_genie_1_1_automation_1_1_scripting_1_1_udp_client_helper.html',1,'HomeGenie::Automation::Scripting']]]
 ];

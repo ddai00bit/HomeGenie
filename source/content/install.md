@@ -1,7 +1,7 @@
 ---
 release:
-  version: 1.3-stable.7
-  date: April 29, 2020
+  version: 1.3-stable.8
+  date: June 02, 2020
 ---
 ## Download HomeGenie Server
 
@@ -60,10 +60,14 @@ sudo apt-get install gdebi-core
 sudo gdebi homegenie_{{ release.version }}_all.deb
 ```
 
-HomeGenie will be installed in the _/usr/local/bin/homegenie_ foder.
-Once installed, *HomeGenie* UI can be opened by entering the following URL in your web browser:
-`http://<linux_box_address>/`
-(where `<linux_box_address>` is the name or ip of the host where homegenie is installed).
+HomeGenie will be installed in the _/home/homegenie_ foder.
+Once installed, *HomeGenie UI* can be opened by entering the following URL in your web browser:
+`http://<linux_box_address>:<port>/`
+(where `<linux_box_address>` is the name or ip of the host where *HomeGenie* is installed and `<port>` is the port where the service is listening on).
+
+The default http port is **8080**, but if it's already taken, *HomeGenie* will try to bind the next available address.
+The actual bound port is written to a file named `serviceaddress.txt` in the *HomeGenie* home folder.
+
 
 #### Optional packages
 
@@ -77,6 +81,17 @@ sudo apt-get install arduino-mk empty-expect
 ```
 
 **Note** *HomeGenie requires mono runtime version 4.6.2 or later.*
+
+
+#### Enabling access to serial port and other devices
+
+The user account from which *HomeGenie* will be run (which is `homegenie` in the default installation) must be granted
+of the required permissions in order to access devices such as the serial port, GPIOs, USB controllers.
+
+For example, on most debian systems the user must belongs to the `dialout` system group
+in order to have access to the serial port device.
+
+Consult the operating system documentation about user privileges required to access installed devices.
 
 
 ### macOS and other UNIX systems

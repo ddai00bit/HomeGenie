@@ -1,8 +1,8 @@
 <h2 id="downloadhomegenieserver">Download HomeGenie Server</h2>
-<div align="center" class="content-margin">Current release is <strong>v1.3-stable.7</strong> <em>(April 29, 2020)</em></div>
+<div align="center" class="content-margin">Current release is <strong>v1.3-stable.8</strong> <em>(June 02, 2020)</em></div>
 <div self="size-small center" layout="rows top-spread">
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.7/homegenie_1.3-stable.7_all.deb" title="Download HomeGenie v1.3-stable.7 for Debian Linux" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.8/homegenie_1.3-stable.8_all.deb" title="Download HomeGenie v1.3-stable.8 for Debian Linux" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
     <img src="images/logos/luxicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
     <div layout="column center-spread">
     <h3>Linux .deb</h3>
@@ -10,7 +10,7 @@
     </div>
 </a>
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.7/HomeGenie_v1.3-stable.7.exe" title="Download HomeGenie v1.3-stable.7 for Windows" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.8/HomeGenie_v1.3-stable.8.exe" title="Download HomeGenie v1.3-stable.8 for Windows" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
     <img src="images/logos/winicon.png" alt="" style="margin-right:10px" width="82" align="left">
     <div layout="column center-spread">
     <h3>Windows Installer</h3>
@@ -18,7 +18,7 @@
     </div>
 </a>
 
-<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.7/homegenie_1.3-stable.7.tgz" title="Download HomeGenie v1.3-stable.7 platform agnostic archive" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
+<a layout="row center-left" href="https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.8/homegenie_1.3-stable.8.tgz" title="Download HomeGenie v1.3-stable.8 platform agnostic archive" class="download-button mdl-shadow--8dp mdl-button mdl-js-button mdl-js-ripple-effect">
     <img src="images/logos/macicon.png" alt="" style="margin-right:10px" align="left" width="82" align="left">
     <div layout="column center-spread">
     <h3>Platform agnostic .tgz</h3>
@@ -36,15 +36,17 @@ The UI can be also opened by right clicking on the tray icon.</p>
 <p>Follow the instruction to add the <a href="https://www.mono-project.com/download/stable/#download-lin">Mono repository</a> to your system (only add the repository, do not install <em>mono</em>).
 If you already have a previous version of mono installed, upgrade it by running <code>sudo apt-get upgrade</code>.</p>
 <p>Install <em>HomeGenie Server</em> by entering the following commands:</p>
-<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.7/homegenie_1.3-stable.7_all.deb
+<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.8/homegenie_1.3-stable.8_all.deb
 sudo apt-get update
 sudo apt-get install gdebi-core
-sudo gdebi homegenie_1.3-stable.7_all.deb
+sudo gdebi homegenie_1.3-stable.8_all.deb
 </code></pre>
-<p>HomeGenie will be installed in the <em>/usr/local/bin/homegenie</em> foder.
-Once installed, <em>HomeGenie</em> UI can be opened by entering the following URL in your web browser:
-<code>http://&lt;linux_box_address&gt;/</code>
-(where <code>&lt;linux_box_address&gt;</code> is the name or ip of the host where homegenie is installed).</p>
+<p>HomeGenie will be installed in the <em>/home/homegenie</em> foder.
+Once installed, <em>HomeGenie UI</em> can be opened by entering the following URL in your web browser:
+<code>http://&lt;linux_box_address&gt;:&lt;port&gt;/</code>
+(where <code>&lt;linux_box_address&gt;</code> is the name or ip of the host where <em>HomeGenie</em> is installed and <code>&lt;port&gt;</code> is the port where the service is listening on).</p>
+<p>The default http port is <strong>8080</strong>, but if it's already taken, <em>HomeGenie</em> will try to bind the next available address.
+The actual bound port is written to a file named <code>serviceaddress.txt</code> in the <em>HomeGenie</em> home folder.</p>
 <h4 id="optionalpackages">Optional packages</h4>
 <pre><code class="bash language-bash"># SSL client support
 sudo apt-get install ca-certificates-mono
@@ -54,6 +56,12 @@ sudo apt-get install libttspico-utils
 sudo apt-get install arduino-mk empty-expect
 </code></pre>
 <p><strong>Note</strong> <em>HomeGenie requires mono runtime version 4.6.2 or later.</em></p>
+<h4 id="enablingaccesstoserialportandotherdevices">Enabling access to serial port and other devices</h4>
+<p>The user account from which <em>HomeGenie</em> will be run (which is <code>homegenie</code> in the default installation) must be granted
+of the required permissions in order to access devices such as the serial port, GPIOs, USB controllers.</p>
+<p>For example, on most debian systems the user must belongs to the <code>dialout</code> system group
+in order to have access to the serial port device.</p>
+<p>Consult the operating system documentation about user privileges required to access installed devices.</p>
 <h3 id="macosandotherunixsystems">macOS and other UNIX systems</h3>
 <p>HomeGenie can also be installed on other systems (eg. macOS and other UNIX based systems)
 by following the procedure described below. See
@@ -84,8 +92,8 @@ sudo apt-get install arduino-mk empty-expect
 </code></pre>
 <h4 id="downloadinganduncompressingtgzarchivefile">Downloading and uncompressing tgz archive file</h4>
 <p>Enter the following command terminal</p>
-<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.7/homegenie_1.3-stable.7.tgz
-tar xzvf homegenie_1.3-stable.7.tgz
+<pre><code class="bash language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.3-stable.8/homegenie_1.3-stable.8.tgz
+tar xzvf homegenie_1.3-stable.8.tgz
 </code></pre>
 <h4 id="runninghomegenie">Running HomeGenie</h4>
 <p>After uncompressing, the <em>homegenie</em> folder will be created. Enter the following commands from terminal to start HomeGenie:</p>

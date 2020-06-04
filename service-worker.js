@@ -1061,7 +1061,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "2427406a217634a140f63e332ce4f9f7"
+    "revision": "15bf246f8c02a18da320efa5d8a5bab2"
   },
   {
     "url": "content/raspberry.html",
@@ -1105,19 +1105,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "67802f7552c952e96dcec33070953444"
+    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "daf3014760a1ad146d1552cda2b48ab3"
+    "revision": "2bee21872f78a29d249fe8d731853d7e"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "e2ff1b08544fdef6afe46d6bf9425ba9"
+    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "67a24452f8ec6ef4449b7ee030e16ac6"
+    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1129,7 +1129,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/prism/prism.css",
-    "revision": "485c9fc9787ea73d7c802822096c5dfe"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "js/prism/prism.js",
@@ -2449,7 +2449,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "ebe822f97dd910c86e23eb353db8de68"
+    "revision": "5266b6e5def38885c51035028fc0b3f3"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2457,7 +2457,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
+    "revision": "3f71d5abba7bdd1b5ac065c792714819"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
@@ -2465,11 +2465,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "835c8a9997ccdd102ebd019f6503612c"
+    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "967eb447c7d749a286723c51bd262903"
+    "revision": "9f768b1a778e1110053c112b22c7553d"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
@@ -2541,10 +2541,6 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_05.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/macro_record_01.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {

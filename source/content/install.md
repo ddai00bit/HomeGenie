@@ -1,8 +1,8 @@
 ---
 release:
-  version: 1.3-stable.10
-  date: June 07, 2020
----
+  version: 1.3-stable.11
+  date: June 13, 2020
+---------------------
 ## Download HomeGenie Server
 
 <div align="center" class="content-margin">Current release is <strong>v{{ release.version }}</strong> <em>({{ release.date }})</em></div>

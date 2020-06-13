@@ -99,7 +99,8 @@ tar xzvf homegenie_1.3-stable.11.tgz
 <h4 id="runninghomegenie">Running HomeGenie</h4>
 <p>After uncompressing, the <em>homegenie</em> folder will be created. Enter the following commands from terminal to start HomeGenie:</p>
 <pre><code class="bash language-bash">cd homegenie
-./startup.sh
+mono HomeGenie.exe
 </code></pre>
-<p>You can now start using HomeGenie opening the following URL in your web browser:
-<code>http://&lt;server_address&gt;/</code> (where <code>&lt;server_address&gt;</code> is the name or ip of the host where HomeGenie was installed).</p>
+<p>You can now start using HomeGenie opening the following URL in your web browser:</p>
+<p><code>http://&lt;server_address&gt;:&lt;port&gt;/</code></p>
+<p>where <code>&lt;server_address&gt;</code> is the name or ip of the host where HomeGenie was installed and <code>&lt;port&gt;</code> is the port on which HomeGenie is listening for web requests (defaul port is <code>8080</code>).</p>

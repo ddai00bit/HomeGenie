@@ -148,8 +148,11 @@ After uncompressing, the *homegenie* folder will be created. Enter the following
 
 ```bash
 cd homegenie
-./startup.sh
+mono HomeGenie.exe
 ```
 
 You can now start using HomeGenie opening the following URL in your web browser:
-`http://<server_address>/` (where `<server_address>` is the name or ip of the host where HomeGenie was installed).
+
+`http://<server_address>:<port>/`
+
+where `<server_address>` is the name or ip of the host where HomeGenie was installed and `<port>` is the port on which HomeGenie is listening for web requests (defaul port is `8080`).

@@ -1,7 +1,7 @@
 ---
 release:
-  version: 1.3-stable.11
-  date: June 13, 2020
+  version: 1.3-stable.12
+  date: June 15, 2020
 ---------------------
 ## Download HomeGenie Server
 

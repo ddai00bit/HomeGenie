@@ -40,8 +40,52 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_knx_client_helper-members.html",
+    "revision": "036d6692038a7e48b431ec472bc758b3"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_knx_client_helper.html",
+    "revision": "c351353b41308fa8d23bfe44d29f7434"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper-members.html",
+    "revision": "0a72fe663e1f0534d8e6741d8cdf63dd"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper.html",
+    "revision": "72be9345904d58530d815b6ba58b6c95"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager-members.html",
+    "revision": "cc791f5ab1fde0b12330ac070f1b217b"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html",
+    "revision": "0d5aa615d56000e621995844882892b1"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper-members.html",
+    "revision": "558eaec15b11669412f5bbb701d454ed"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper.html",
+    "revision": "e6deb428ad25237f2e84b6cd0d806bb2"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper-members.html",
+    "revision": "780fb121e9810f12d9e28a06dca7ee1b"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper.html",
+    "revision": "54a0576b4b28e6ad870010f2031bbec6"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper-members.html",
+    "revision": "b7cf1c0cc9c4bf73a71362cac9dcac38"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html",
+    "revision": "ec176822b34ebe2fd48be24ab03376cf"
   },
   {
     "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_scheduler_helper-members.html",
@@ -840,10 +884,6 @@ self.__precacheManifest = [
     "revision": "53bd8464c8858d9921242dd09d84d607"
   },
   {
-    "url": "api/mig/css/bootstrap-doc.css",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
     "url": "api/mig/css/bootstrap-responsive.css",
     "revision": "871defe8c1a928bcbcc3efcf4a1dde42"
   },
@@ -860,16 +900,8 @@ self.__precacheManifest = [
     "revision": "a987f72342eeaece278982a377eca816"
   },
   {
-    "url": "api/mig/includes/header.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
     "url": "api/mig/includes/sidemenu.html",
     "revision": "c4b7fd0ff255e83e18501544681d133d"
-  },
-  {
-    "url": "api/mig/js/bootstrap.js",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/mig/js/common_includes.js",
@@ -901,7 +933,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/mig/mig_api_lircremote.html",
-    "revision": "fb0f060b0df7f483bc57923eebf023a1"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/mig/mig_api_upnp.html",
@@ -1017,7 +1049,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "a79e3c9e0167b9e89654995f63d368d1"
+    "revision": "5b807f378a2a3c3bce05613c741c780a"
   },
   {
     "url": "content/raspberry.html",
@@ -1061,19 +1093,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.blue-indigo.min.css",
-    "revision": "60a2d341769bbf72ae8cdba9a59ba2b6"
+    "revision": "6d51fcda9ed078bf8095b5fe2c569cda"
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "4dfad3cb6c678cb2e5aaedd81ebe8b46"
+    "revision": "2bee21872f78a29d249fe8d731853d7e"
   },
   {
     "url": "js/mdl/material.js",
-    "revision": "60f3ee61721d5bbac709fad9c239f2ac"
+    "revision": "b50a9d9f625f6eb4e09c40957f2e4e02"
   },
   {
     "url": "js/mdl/material.light_green-pink.min.css",
-    "revision": "45d2af18d4499a5d70c7bdfc932f9bbf"
+    "revision": "701b49acef871ef13bcbbd95b4ac33fe"
   },
   {
     "url": "js/mdl/material.min.js",
@@ -1117,7 +1149,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/zuix/zuix.js",
-    "revision": "630e5b6805eeddd575fa2948502254d3"
+    "revision": "4b5c494b8a1259cc0e992e7fd7973afd"
   },
   {
     "url": "js/zuix/zuix.min.js",
@@ -2280,6 +2312,14 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper.png",
+    "revision": "2f11d2d225fdd299a1ffbc63fd732bbe"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.png",
+    "revision": "a2dd1a4fc2e8fef6946d717f75716c8e"
+  },
+  {
     "url": "api/ape/closed.png",
     "revision": "3fa180a1c853204ee64235708fb8e162"
   },
@@ -2368,10 +2408,6 @@ self.__precacheManifest = [
     "revision": "d5a3e094c590d5113232b74cd902f58f"
   },
   {
-    "url": "api/mig/ico/apple-touch-icon-114-precomposed.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
     "url": "api/mig/ico/apple-touch-icon-144-precomposed.png",
     "revision": "55e3b458c3769678da35e82ab498834d"
   },
@@ -2397,7 +2433,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "5266b6e5def38885c51035028fc0b3f3"
+    "revision": "ebe822f97dd910c86e23eb353db8de68"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2405,27 +2441,27 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "c4ba576f02ddb3b4d02af5e5a4d40600"
+    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "456e71ef6bdb4edd343369a98297b6fb"
+    "revision": "02414f49ad13c7889bc8754ff114c5f0"
   },
   {
     "url": "images/docs/configure_menu.jpg",
-    "revision": "228deba0785cfbf7aa4e62e7b59e6316"
+    "revision": "835c8a9997ccdd102ebd019f6503612c"
   },
   {
     "url": "images/docs/configure_menu.png",
-    "revision": "a81705fcb69396540d8539c2c5fd7078"
+    "revision": "967eb447c7d749a286723c51bd262903"
   },
   {
     "url": "images/docs/dashboard_page_01.jpg",
-    "revision": "0d07a1aa7b8600ff832761b5f6ff927e"
+    "revision": "efd5c0e7d47fc340d6e15bbbb6d25f9d"
   },
   {
     "url": "images/docs/dashboard_page_01.png",
-    "revision": "9437024dd61bd7c8341eaca77e0964fe"
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "images/docs/groups_add_group.jpg",
@@ -2433,15 +2469,15 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/groups_add_group.png",
-    "revision": "b5e94599e5344a9120edeb9a312ad9f4"
+    "revision": "901e33284519b08e2b721df7f172de1b"
   },
   {
     "url": "images/docs/groups_add_module.jpg",
-    "revision": "51939e555ff8f64af8ccf6eac2df5a9e"
+    "revision": "56ef3de5acf68b30dde566c483de4f19"
   },
   {
     "url": "images/docs/groups_add_module.png",
-    "revision": "bb9a3bfa4ffaadc4ae0eff09f98a4b3d"
+    "revision": "2bf9ad612e9cedc80014be290222f7ac"
   },
   {
     "url": "images/docs/interconnections_01.jpg",
@@ -2512,44 +2548,64 @@ self.__precacheManifest = [
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/package_repos.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/weather_options_01.jpg",
+    "revision": "3f4b7eba62dea084fd2d79b6cf96abd9"
   },
   {
-    "url": "images/docs/program_editor_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/weather_options_01.png",
+    "revision": "db3d80c6134a72b493337643705fcb1d"
   },
   {
-    "url": "images/docs/program_editor_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widget_options_01.gif",
+    "revision": "0692ef6ad193c7e2ad272c4249df3ced"
   },
   {
-    "url": "images/docs/scheduler_calendar_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widget_options_01.jpg",
+    "revision": "7cfd2dfeb25b304b74148dbe8e965de8"
   },
   {
-    "url": "images/docs/scheduler_calendar_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widget_options_01.png",
+    "revision": "a7e95c12db0544c57a32c3b7127a59df"
   },
   {
-    "url": "images/docs/scheduler_wizard_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widgets_dimmer_type.jpg",
+    "revision": "ed1014ed6aa40db3091bacd143ec519d"
   },
   {
-    "url": "images/docs/scheduler_wizard_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widgets_dimmer_type.png",
+    "revision": "a7a5e18055656fc2edc4ee1a42f9331d"
   },
   {
-    "url": "images/docs/system_settings_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widgets_editor_html.jpg",
+    "revision": "de93b3dbed14cba3cc2acad1566ea3af"
   },
   {
-    "url": "images/docs/system_settings_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widgets_editor_html.png",
+    "revision": "f7374c222450e1c7fc4eaefe7d2c5701"
   },
   {
-    "url": "images/docs/villa.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/widgets_editor_js.jpg",
+    "revision": "662186a3f097d6d3de41420baf306ba3"
+  },
+  {
+    "url": "images/docs/widgets_editor_js.png",
+    "revision": "696c3ab3b786d9e31568c500d5bcb7a0"
+  },
+  {
+    "url": "images/docs/widgets_editor_list.jpg",
+    "revision": "1bd328b365d078010e152f61d3479842"
+  },
+  {
+    "url": "images/docs/widgets_editor_list.png",
+    "revision": "331a36f2871251798a177a4067f012b0"
+  },
+  {
+    "url": "images/docs/widgets_editor_params.jpg",
+    "revision": "2f292ca77f084da43b2303360943c2b4"
+  },
+  {
+    "url": "images/docs/widgets_editor_params.png",
+    "revision": "c1711c37d88e75af2abb7488b6fc4db1"
   },
   {
     "url": "images/download-button.png",
@@ -2774,6 +2830,10 @@ self.__precacheManifest = [
   {
     "url": "images/logos/android_logo.png",
     "revision": "9d258cb09c821961e092b9b459399d9e"
+  },
+  {
+    "url": "images/logos/bpilogo.jpg",
+    "revision": "bb94ae185fe02e7f0058da149964991a"
   },
   {
     "url": "images/logos/bug.png",

@@ -8,5 +8,6 @@ var searchData=
   ['address_5',['Address',['../class_home_genie_1_1_data_1_1_module.html#aec57182df53b04aceca477433c48ecfc',1,'HomeGenie::Data::Module']]],
   ['addvirtualmodule_6',['AddVirtualModule',['../class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ad74a2a82101dd80e17244fd03eaf181f',1,'HomeGenie::Automation::Scripting::ProgramHelper']]],
   ['addvirtualmodules_7',['AddVirtualModules',['../class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a6ce0c82ab9edb50be6689919cf29c1ca',1,'HomeGenie::Automation::Scripting::ProgramHelper']]],
-  ['alarmed_8',['Alarmed',['../class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#a1e3a3487ccd090a80be957ae7c5b5f1f',1,'HomeGenie::Automation::Scripting::ModulesManager']]]
+  ['alarmed_8',['Alarmed',['../class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#a1e3a3487ccd090a80be957ae7c5b5f1f',1,'HomeGenie::Automation::Scripting::ModulesManager']]],
+  ['apicall_9',['ApiCall',['../class_home_genie_1_1_program_helper_base.html#aa39476a8194d254f13064b84ea062394',1,'HomeGenie.ProgramHelperBase.ApiCall(string apiCommand)'],['../class_home_genie_1_1_program_helper_base.html#ac1fbeba264d5430adb547374825035f8',1,'HomeGenie.ProgramHelperBase.ApiCall(string apiCommand, object data)']]]
 ];

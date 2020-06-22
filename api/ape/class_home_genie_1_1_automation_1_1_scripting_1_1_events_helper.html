@@ -98,7 +98,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2345d703592c2fe90284b13ce7ac2650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the specified <code>handler</code> function when a parameter of a module is changing. If either the <code>handler</code> returns false or changes the event value, the propagation will stop.  <a href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a2345d703592c2fe90284b13ce7ac2650">More...</a><br /></td></tr>
 <tr class="separator:a2345d703592c2fe90284b13ce7ac2650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58515455945c35783cde47d21f844663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html">EventsHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a58515455945c35783cde47d21f844663">WebServiceCallReceived</a> (string apiCall, Func&lt; object, object &gt; handler)</td></tr>
-<tr class="memdesc:a58515455945c35783cde47d21f844663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a <code>handler</code> function to call when a web service call starting with <code>apiCall</code> is received. This is used to create and handle user-defined web service API methods.  <a href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a58515455945c35783cde47d21f844663">More...</a><br /></td></tr>
+<tr class="memdesc:a58515455945c35783cde47d21f844663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a <code>handler</code> function that will be called when a web service call starting with <code>apiCall</code> is received. Use this to create user-defined web service API methods.  <a href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a58515455945c35783cde47d21f844663">More...</a><br /></td></tr>
 <tr class="separator:a58515455945c35783cde47d21f844663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -306,7 +306,7 @@ Class instance accessor: <b>When</b> </p>
       </table>
 </div><div class="memdoc">
 
-<p>Define a <code>handler</code> function to call when a web service call starting with <code>apiCall</code> is received. This is used to create and handle user-defined web service API methods. </p>
+<p>Define a <code>handler</code> function that will be called when a web service call starting with <code>apiCall</code> is received. Use this to create user-defined web service API methods. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html" title="Events Helper class. Class instance accessor: When">EventsHelper</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -315,18 +315,41 @@ Class instance accessor: <b>When</b> </p>
   </table>
   </dd>
 </dl>
-<p>Example: </p><div class="fragment"><div class="line">When.WebServiceCallReceived( <span class="stringliteral">&quot;Hello.World&quot;</span>, (args) =&gt;</div>
+<p>API methods should respect the following format: </p><div class="fragment"><div class="line">&lt;domain&gt;/&lt;address&gt;/&lt;command&gt;[/&lt;option_0&gt;[/.../&lt;option_n&gt;]]</div>
+</div><!-- fragment --><p> For instance, a program that control Philips Hue lights will implement API methods like this: </p><div class="fragment"><div class="line">When.WebServiceCallReceived( <span class="stringliteral">&quot;HomeAutomation.PhilipsHue&quot;</span>, (args) =&gt;</div>
 <div class="line">{</div>
-<div class="line">    var returnstring = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line">    <span class="keywordflow">if</span> (args == <span class="stringliteral">&quot;Hello.World/Greet&quot;</span>)</div>
-<div class="line">    {</div>
-<div class="line">        returnstring = <span class="stringliteral">&quot;Hello HomeGenie World!&quot;</span>;</div>
-<div class="line">    }</div>
-<div class="line">    <span class="keywordflow">return</span> returnstring;</div>
+<div class="line">    <span class="comment">// handle the received request</span></div>
 <div class="line">});</div>
-</div><!-- fragment --><p> In the snippet above, if we wanted to create an "Hello World" program that respond to the custom API call: <br  />
-<a href="http://">http://</a>&lt;hg_server_address&gt;/api/Hello.World/Greet </p>
-
+</div><!-- fragment --><p>So an API call to set a Philips Hue light with address <em>3</em> to <em>50%</em> can be done via HTTP GET </p><div class="fragment"><div class="line">GET /api/HomeAutomation.PhilipsHue/3/Control.Level/50</div>
+</div><!-- fragment --><p> or from a csharp program </p><div class="fragment"><div class="line">var responseObject = Program.ApiCall(<span class="stringliteral">&quot;HomeAutomation.PhilipsHue/3/Control.Level/50&quot;</span>);</div>
+</div><!-- fragment --><p> When this call is received by the handler, the object <code>args</code> passed to it must be parsed using <code>Program.ParseApiCall</code> method, which will return an object containing the following fields </p><div class="fragment"><div class="line">var request = Program.ParseApiCall(args);</div>
+<div class="line"><span class="comment">//  request -&gt; {</span></div>
+<div class="line"><span class="comment">//      Domain,         // (string)</span></div>
+<div class="line"><span class="comment">//      Address,        // (string)</span></div>
+<div class="line"><span class="comment">//      Command,        // (string)</span></div>
+<div class="line"><span class="comment">//      Data,           // (object)</span></div>
+<div class="line"><span class="comment">//      OriginalRequest // (string)</span></div>
+<div class="line"><span class="comment">//  }</span></div>
+</div><!-- fragment --><p> This object also provide a method <code>request.GetOption(&lt;index&gt;)</code> to get eventual options passed with this call.</p>
+<p><b>Example</b> </p><div class="fragment"><div class="line">When.WebServiceCallReceived( <span class="stringliteral">&quot;HomeAutomation.PhilipsHue&quot;</span>, (args) =&gt;</div>
+<div class="line">{</div>
+<div class="line">    var request = Program.ParseApiCall(args);</div>
+<div class="line">    <span class="comment">// request.Domain          -&gt; &quot;HomeAutomtion.PhilipsHue&quot;</span></div>
+<div class="line">    <span class="comment">// request.Address         -&gt; 3</span></div>
+<div class="line">    <span class="comment">// request.Command         -&gt; Control.Level</span></div>
+<div class="line">    <span class="comment">// request.GetOption(0)    -&gt; 50</span></div>
+<div class="line">    <span class="comment">// request.Data            -&gt; null (not used in this case)</span></div>
+<div class="line">    <span class="comment">// request.OriginalRequest -&gt; &quot;HomeAutomation.PhilipsHue/3/Control.Level/50&quot;</span></div>
+<div class="line">    <span class="keywordflow">if</span> (request.Domain == <span class="stringliteral">&quot;HomeAutomtion.PhilipsHue&quot;</span> &amp;&amp; request.Command == <span class="stringliteral">&quot;Control.Level&quot;</span>)</div>
+<div class="line">    {</div>
+<div class="line">        var deviceAddress = request.Address;</div>
+<div class="line">        var deviceLevel = request.GetOption(0); <span class="comment">// the first option has index 0</span></div>
+<div class="line">        <span class="comment">// TODO: set dimming level of light with address &#39;deviceAddress&#39; to &#39;dimmerLevel&#39; %</span></div>
+<div class="line">        return new ResponseText(<span class="stringliteral">&quot;OK&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> <span class="keyword">new</span> ResponseText(<span class="stringliteral">&quot;ERROR&quot;</span>);</div>
+<div class="line">});</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -335,7 +358,7 @@ Class instance accessor: <b>When</b> </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 13 2020 14:18:10 for Helper Class Reference by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 22 2020 14:47:51 for Helper Class Reference by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

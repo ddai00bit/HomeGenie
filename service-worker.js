@@ -65,67 +65,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html",
-    "revision": "41422899897cdff3ca1f1fd7c4959797"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_scheduler_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_scheduler_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_serial_port_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_serial_port_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_store_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_store_helper.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_tcp_client_helper-members.html",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "6f0642659d97c79bc274e3a4e603824c"
   },
   {
     "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_tcp_client_helper.html",
@@ -1145,7 +1085,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "e37d0bb19d5adb834e5c43b6d61d31c9"
+    "revision": "1fb629ff1e1e254eb71aea66608ed97c"
   },
   {
     "url": "content/raspberry.html",
@@ -1193,7 +1133,7 @@ self.__precacheManifest = [
   },
   {
     "url": "js/mdl/material.green-pink.min.css",
-    "revision": "7323c53e0fdbc3c25de3a118c2d85ebe"
+    "revision": "2bee21872f78a29d249fe8d731853d7e"
   },
   {
     "url": "js/mdl/material.js",
@@ -2496,10 +2436,6 @@ self.__precacheManifest = [
     "revision": "a2dd1a4fc2e8fef6946d717f75716c8e"
   },
   {
-    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
     "url": "api/ape/class_home_genie_1_1_program_helper_base.png",
     "revision": "b4694760613b114a8ec4731b476afec5"
   },
@@ -2621,7 +2557,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/admin_page_url.png",
-    "revision": "5266b6e5def38885c51035028fc0b3f3"
+    "revision": "ebe822f97dd910c86e23eb353db8de68"
   },
   {
     "url": "images/docs/alarm_system_01.jpg",
@@ -2629,11 +2565,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/alarm_system_01.png",
-    "revision": "3f71d5abba7bdd1b5ac065c792714819"
+    "revision": "d9e041a36e1709af8b5adf2d3a79c124"
   },
   {
     "url": "images/docs/chemical_synapse.jpg",
-    "revision": "32f1a01637b41516586ce70dfb07d254"
+    "revision": "02414f49ad13c7889bc8754ff114c5f0"
   },
   {
     "url": "images/docs/configure_menu.jpg",
@@ -2669,71 +2605,47 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_01.jpg",
-    "revision": "6b4e27ef27220fc820b3943f6d294e65"
-  },
-  {
-    "url": "images/docs/interconnections_01.png",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "images/docs/interconnections_02.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/package_repos.png",
+    "revision": "92e12e6e731146af0af8cfb251be1104"
   },
   {
-    "url": "images/docs/interconnections_02.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/program_editor_01.jpg",
+    "revision": "88f19f22be74f1d99bb74febb00412f4"
   },
   {
-    "url": "images/docs/interconnections_03.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/program_editor_01.png",
+    "revision": "995064402485e41b639151822cd5c5c1"
   },
   {
-    "url": "images/docs/interconnections_03.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/scheduler_calendar_01.jpg",
+    "revision": "54b91abf13bf120a2ca90b62fa256371"
   },
   {
-    "url": "images/docs/interconnections_04.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/scheduler_calendar_01.png",
+    "revision": "f5d09539edc6558728e34bd4f785ae0d"
   },
   {
-    "url": "images/docs/interconnections_04.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/scheduler_wizard_01.jpg",
+    "revision": "e9080d00d4f4b0f96ddf11c99668f8b9"
   },
   {
-    "url": "images/docs/interconnections_04b.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/scheduler_wizard_01.png",
+    "revision": "aacea54d78ca2ec8e3086ca4ce34271e"
   },
   {
-    "url": "images/docs/interconnections_04b.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/system_settings_01.jpg",
+    "revision": "ed9471f69345bd4f805aa380f9a6fe34"
   },
   {
-    "url": "images/docs/interconnections_05.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/system_settings_01.png",
+    "revision": "98a02c995bfd86276c95c914c78d2651"
   },
   {
-    "url": "images/docs/interconnections_05.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/macro_record_01.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/macro_record_01.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/media_server_widget_00.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/media_server_widget_00.png",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  {
-    "url": "images/docs/package_repos.jpg",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "images/docs/villa.jpg",
+    "revision": "2df6d5269a804fd9a83fa25efc42f2e3"
   },
   {
     "url": "images/docs/weather_options_01.jpg",

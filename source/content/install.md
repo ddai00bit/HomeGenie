@@ -1,7 +1,7 @@
 ---
 release:
-  version: 1.3-beta.16
-  date: June 23, 2020
+  version: 1.3-beta.17
+  date: June 28, 2020
 ---------------------
 ## Download HomeGenie Server
 

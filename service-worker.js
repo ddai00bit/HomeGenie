@@ -65,7 +65,67 @@ self.__precacheManifest = [
   },
   {
     "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html",
-    "revision": "6f0642659d97c79bc274e3a4e603824c"
+    "revision": "c40d82d47e654e6dc636b9ee6125fecc"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_mqtt_client_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_net_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_scheduler_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_scheduler_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_serial_port_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_serial_port_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_store_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_store_helper.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_tcp_client_helper-members.html",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_tcp_client_helper.html",
@@ -1085,7 +1145,7 @@ self.__precacheManifest = [
   },
   {
     "url": "content/install.html",
-    "revision": "1fb629ff1e1e254eb71aea66608ed97c"
+    "revision": "94094f84265e6c1ca70130f38edaa591"
   },
   {
     "url": "content/raspberry.html",
@@ -1121,7 +1181,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "759b39e634d1674276736554727d4d96"
+    "revision": "67df1926b5ca88f0d9ad7b5eb790bd0c"
   },
   {
     "url": "index.js",
@@ -2436,6 +2496,10 @@ self.__precacheManifest = [
     "revision": "a2dd1a4fc2e8fef6946d717f75716c8e"
   },
   {
+    "url": "api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
     "url": "api/ape/class_home_genie_1_1_program_helper_base.png",
     "revision": "b4694760613b114a8ec4731b476afec5"
   },
@@ -2605,6 +2669,70 @@ self.__precacheManifest = [
   },
   {
     "url": "images/docs/interconnections_01.jpg",
+    "revision": "6b4e27ef27220fc820b3943f6d294e65"
+  },
+  {
+    "url": "images/docs/interconnections_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_02.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_02.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_03.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_03.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_04.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_04.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_04b.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_04b.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_05.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/interconnections_05.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/macro_record_01.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/macro_record_01.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/media_server_widget_00.jpg",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/media_server_widget_00.png",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "url": "images/docs/package_repos.jpg",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
